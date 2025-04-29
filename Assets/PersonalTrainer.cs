@@ -11,7 +11,7 @@ public class PersonalTrainer : MonoBehaviour
     int precioRecreativo = 2500;
     float precioTotal;
     float precioDescuento;
-    // Start is called before the first frame update
+
     void Start()
     {
         if(horas > 6 || horas < 1) {
@@ -43,7 +43,6 @@ public class PersonalTrainer : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
