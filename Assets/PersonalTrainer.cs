@@ -35,11 +35,11 @@ public class PersonalTrainer : MonoBehaviour
 
         Debug.Log("El entrenamiento elejido es: " + entrenamiento);
         Debug.Log("La cantidad de horas reservadas es: " + horas);
-        Debug.Log("El precio es: " + precioTotal);
+        Debug.Log("El precio es: " + precioTotal + "$");
         if (horas == 6)
         {
             precioDescuento = precioTotal - precioTotal* 10 / 100;
-            Debug.Log("El precio con descuento es: " + precioDescuento);
+            Debug.Log("El precio con descuento es: " + precioDescuento + "$");
         }
     }
 
